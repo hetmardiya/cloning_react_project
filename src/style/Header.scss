@@ -1,0 +1,36 @@
+$bg-color: black;
+
+.header{
+    height: 100px;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    > img{
+        height: 70%;
+    }
+
+    > div{
+        margin-left: 4vmax;
+        width: 100%;
+
+        > a{
+            margin: 1.5vmax;
+            font-weight: 300;
+            font-size: 1.3rem;
+        }
+    }
+
+    > svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+
+        &:hover{
+            font-size: 1.9rem;
+        }
+    }
+}
